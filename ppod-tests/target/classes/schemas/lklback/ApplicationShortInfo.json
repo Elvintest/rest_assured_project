@@ -1,0 +1,51 @@
+{
+  "required": ["createdDate", "id", "kind", "kindName", "modifyDate", "number", "status", "statusName", "userId", "userName"],
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "внутренний идентификатор"
+    },
+    "number": {
+      "type": "string",
+      "description": "номер документа"
+    },
+    "userId": {
+      "type": "string",
+      "description": "идентификатор пользователя"
+    },
+    "userName": {
+      "type": "string",
+      "description": "имя пользователя"
+    },
+    "kind": {
+      "type": "string",
+      "description": "тип документа (код)",
+      "enum": ["declaration", "extraction_glr"]
+    },
+    "kindName": {
+      "type": "string",
+      "description": "тип документа (наименование)"
+    },
+    "status": {
+      "type": "string",
+      "description": "статус (код)",
+      "enum": ["draft", "formed", "signed", "sent", "unknown"]
+    },
+    "statusName": {
+      "type": "string",
+      "description": "статус (наименование)"
+    },
+    "createdDate": {
+      "type": "string",
+      "description": "дата создания",
+      "format": "date-time"
+    },
+    "modifyDate": {
+      "type": "string",
+      "description": "дата последнего изменения",
+      "format": "date-time"
+    }
+  },
+  "description": "Краткая информация о пакете с документами"
+}

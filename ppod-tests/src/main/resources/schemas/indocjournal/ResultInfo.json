@@ -1,0 +1,19 @@
+{
+  "type": ["object", "null"],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "fixedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "document": {
+      "$ref": "DocumentInfo.json"
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  },
+  "description": "сведения о результате обработки входящего документа"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "requestesInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "RequestedInfo.json"
+      }
+    }
+  }
+}

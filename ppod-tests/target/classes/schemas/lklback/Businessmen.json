@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "lastname": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "patronymic": {
+      "type": "string"
+    },
+    "inn": {
+      "type": "string"
+    }
+  }
+}

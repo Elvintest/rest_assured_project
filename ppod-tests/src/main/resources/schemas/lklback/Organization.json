@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "inn": {
+      "type": "string"
+    },
+    "regDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "ogrn": {
+      "type": "string"
+    },
+    "kpp": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "Address.json"
+    }
+  }
+}

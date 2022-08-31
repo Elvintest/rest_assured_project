@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "array",
+      "description": "список элементов",
+      "items": {
+        "$ref": "Journal.json"
+      }
+    },
+    "totalElements": {
+      "type": "integer",
+      "description": "общее количество элементов",
+      "format": "int64"
+    },
+    "pageable": {
+      "$ref": "PageableObject.json"
+    },
+    "sort": {
+      "$ref": "Sort.json"
+    },
+    "first": {
+      "type": "boolean",
+      "description": "признак 'первая страница'"
+    },
+    "last": {
+      "type": "boolean",
+      "description": "признак 'последняя страница'"
+    },
+    "number": {
+      "type": "integer",
+      "description": "номер страницы",
+      "format": "int32"
+    },
+    "numberOfElements": {
+      "type": "integer",
+      "description": "количество элементов на данной странице",
+      "format": "int32"
+    },
+    "totalPages": {
+      "type": "integer",
+      "description": "количество страниц",
+      "format": "int32"
+    },
+    "size": {
+      "type": "integer",
+      "description": "количество элементов данной страницы",
+      "format": "int32"
+    },
+    "empty": {
+      "type": "boolean"
+    }
+  },
+  "description": "Страница выдачи информации"
+}

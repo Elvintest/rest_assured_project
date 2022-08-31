@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "executiveAuthority": {
+      "$ref": "DictionaryItem.json"
+    },
+    "period": {
+      "$ref": "Period.json"
+    },
+    "contract": {
+      "$ref": "Contract.json"
+    },
+    "usageTypes": {
+      "type": "array",
+      "items": {
+        "$ref": "DictionaryItem.json"
+      }
+    },
+    "forestry": {
+      "$ref": "DictionaryItem.json"
+    }
+  }
+}

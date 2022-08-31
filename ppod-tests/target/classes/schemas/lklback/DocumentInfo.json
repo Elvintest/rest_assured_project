@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["forestUsageDocument", "schemeObject", "notaryDocument", "attorneyPhysical", "attorneyJuridical", "attorneyNormative", "personalIdentityDocument", "other"]
+    },
+    "typeName": {
+      "type": "string"
+    },
+    "fileLink": {
+      "type": "string"
+    },
+    "fileName": {
+      "type": "string"
+    },
+    "fileSigLink": {
+      "type": "string"
+    },
+    "fileSigName": {
+      "type": "string"
+    },
+    "scale": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "docDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "dictionaryType": {
+      "$ref": "DictionaryItem.json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    }
+  }
+}

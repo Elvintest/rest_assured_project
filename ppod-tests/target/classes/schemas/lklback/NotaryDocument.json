@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "issueName": {
+      "type": "string"
+    },
+    "issueDate": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

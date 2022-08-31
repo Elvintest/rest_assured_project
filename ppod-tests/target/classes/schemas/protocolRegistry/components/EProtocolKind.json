@@ -1,0 +1,8 @@
+{
+  "description": "Вид протокола",
+  "type": "string",
+  "enum": [
+    "control",
+    "approval"
+  ]
+}

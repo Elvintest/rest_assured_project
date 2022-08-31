@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "forestryId": {
+      "type": "string"
+    },
+    "forestryName": {
+      "type": "string"
+    },
+    "subforestryId": {
+      "type": "string"
+    },
+    "subforestryName": {
+      "type": "string"
+    },
+    "tractId": {
+      "type": "string"
+    },
+    "tractName": {
+      "type": "string"
+    },
+    "quarter": {
+      "type": "string"
+    },
+    "taxationUnit": {
+      "type": "string"
+    },
+    "cuttingArea": {
+      "type": "string"
+    },
+    "usageType": {
+      "type": "string",
+      "enum": ["harvestingWood", "harvestingObject", "otherUsageTypes", "otherUsageObjects"]
+    },
+    "area": {
+      "type": "number"
+    },
+    "volume": {
+      "type": "number"
+    },
+    "unitTypeId": {
+      "type": "string"
+    },
+    "unitTypeName": {
+      "type": "string"
+    },
+    "createDate": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

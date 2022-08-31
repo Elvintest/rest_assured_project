@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Автоматизированные тесты ФХ" parallel="methods" thread-count="3">
+    <parameter name="stend" value="DEV"/>
+    <test name="Спринты">
+        <groups>
+            <run>
+                <exclude name="sprint2"/>
+                <exclude name="sprint3"/>
+                <include name="sprint4"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ru.atc.fgislk.ppod.testcore.indocjournal.TestCheckApi"/>
+            <class name="ru.atc.fgislk.ppod.testcore.lklback.TestCheckApi"/>
+            <class name="ru.atc.fgislk.ppod.testcore.phdfs.TestPhdFs"/>
+            <class name="ru.atc.fgislk.ppod.testcore.integrityControl.TestIntegrityScenario"/>
+        </classes>
+    </test>
+</suite>

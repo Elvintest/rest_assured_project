@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "applicationKind": {
+      "type": "string",
+      "enum": ["declaration", "extraction_glr"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "formed", "signed", "sent", "unknown"]
+    },
+    "statusName": {
+      "type": "string"
+    },
+    "region": {
+      "$ref": "DictionaryItem.json"
+    },
+    "subjects": {
+      "type": "array",
+      "items": {
+        "$ref": "Subject.json"
+      }
+    },
+    "declarationInfo": {
+      "$ref": "DeclarationInfo.json"
+    },
+    "extractionGlrInfo": {
+      "$ref": "ExtractionGlrInfo.json"
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "$ref": "DocumentInfo.json"
+      }
+    }
+  }
+}

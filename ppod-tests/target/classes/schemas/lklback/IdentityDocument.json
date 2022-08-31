@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "$ref": "DictionaryItem.json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "issueName": {
+      "type": "string"
+    },
+    "issueCode": {
+      "type": "string"
+    },
+    "issueDate": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

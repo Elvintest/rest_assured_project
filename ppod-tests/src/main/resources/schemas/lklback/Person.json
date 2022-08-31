@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "lastname": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "patronymic": {
+      "type": "string"
+    },
+    "identityDocument": {
+      "$ref": "IdentityDocument.json"
+    },
+    "inn": {
+      "type": "string"
+    },
+    "snils": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "Address.json"
+    }
+  }
+}

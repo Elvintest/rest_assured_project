@@ -1,0 +1,27 @@
+{
+  "type": "array",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["application_xml", "application_xml_sig", "request_xml", "unknown"]
+    },
+    "typeName": {
+      "type": "string"
+    },
+    "fileLink": {
+      "type": "string"
+    },
+    "fileName": {
+      "type": "string"
+    },
+    "fileSigLink": {
+      "type": "string"
+    },
+    "fileSigName": {
+      "type": "string"
+    }
+  }
+}

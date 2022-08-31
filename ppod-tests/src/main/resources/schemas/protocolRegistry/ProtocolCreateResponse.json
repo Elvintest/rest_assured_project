@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "идентификатор протокола",
+        "type": "integer",
+        "format": "int64"
+      },
+      "processInstance": {
+        "description": "идентификатор экземпляра процесса, в рамках которого создается протокол",
+        "type": "string"
+      },
+      "kind": {
+        "$ref": "components/EProtocolKind.json"
+      },
+      "status": {
+        "$ref": "components/EProtocolStatus"
+      },
+      "sourceSubsystem": {
+        "description": "код подсистемы-источника",
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "decision": {
+        "$ref": "/EProtocolDecision"
+      },
+      "closedAt": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "reportFile": {
+        "$ref": "string"
+      }
+    }
+  }

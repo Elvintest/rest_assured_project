@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "index": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "longitude": {
+      "type": "number",
+      "format": "float"
+    },
+    "latitude": {
+      "type": "number",
+      "format": "float"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "required": ["code", "group", "title"],
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "код"
+    },
+    "title": {
+      "type": "string",
+      "description": "наименование"
+    },
+    "group": {
+      "type": "string",
+      "description": "группа",
+      "enum": ["fd", "er", "all"]
+    },
+    "subGroup": {
+      "type": "string",
+      "description": "подгруппа",
+      "enum": ["forestObject", "baseDocument"]
+    }
+  },
+  "description": "Тип документа"
+}

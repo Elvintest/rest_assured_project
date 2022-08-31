@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "uriList": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "fn": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "uriList",
+    "fn"
+  ]
+}

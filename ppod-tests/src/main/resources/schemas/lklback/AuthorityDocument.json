@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "docDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "fileLink": {
+      "type": "string"
+    },
+    "fileName": {
+      "type": "string"
+    },
+    "fileSigLink": {
+      "type": "string"
+    },
+    "fileSigName": {
+      "type": "string"
+    }
+  }
+}

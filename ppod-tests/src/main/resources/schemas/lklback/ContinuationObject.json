@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "context": {
+      "$ref": "CoroutineContext.json"
+    }
+  }
+}

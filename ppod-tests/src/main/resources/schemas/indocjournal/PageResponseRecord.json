@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "array",
+      "description": "список элементов",
+      "items": {
+        "$ref": "Record.json"
+      }
+    },
+    "totalElements": {
+      "type": "integer",
+      "description": "общее количество элементов"
+    },
+    "pageable": {
+      "$ref": "PageableObject.json"
+    },
+    "sort": {
+      "$ref": "Sort.json"
+    },
+    "first": {
+      "type": "boolean",
+      "description": "признак 'первая страница'"
+    },
+    "last": {
+      "type": "boolean",
+      "description": "признак 'последняя страница'"
+    },
+    "number": {
+      "type": "integer",
+      "description": "номер страницы"
+    },
+    "numberOfElements": {
+      "type": "integer",
+      "description": "количество элементов на данной странице"
+    },
+    "totalPages": {
+      "type": "integer",
+      "description": "количество страниц"
+    },
+    "size": {
+      "type": "integer",
+      "description": "количество элементов данной страницы"
+    },
+    "empty": {
+      "type": "boolean"
+    }
+  },
+  "description": "Страница выдачи информации"
+}

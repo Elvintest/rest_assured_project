@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "requestKind": {
+      "type": "string",
+      "enum": ["forestry", "partForestry", "forestQuarter", "forestTaxingAllocation", "greenZone", "forestParkZone", "forestPart", "useWithoutForestPart", "cuttingArea", "woodWarehouse", "objectInfrastructure", "objectNotRelatedInfrastructure", "dealWood", "otherType"]
+    },
+    "number": {
+      "type": "string"
+    },
+    "sectioni": {
+      "type": "boolean"
+    },
+    "sectionii": {
+      "type": "boolean"
+    },
+    "sectioniii": {
+      "type": "boolean"
+    },
+    "sectioniv": {
+      "type": "boolean"
+    },
+    "sectionv": {
+      "type": "boolean"
+    },
+    "sectionvi": {
+      "type": "boolean"
+    },
+    "sectionvii": {
+      "type": "boolean"
+    },
+    "sectionviii": {
+      "type": "boolean"
+    },
+    "sectionix": {
+      "type": "boolean"
+    },
+    "sectionAll": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

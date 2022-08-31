@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Автоматизированные тесты ПУП">
+    <parameter name="stend" value="DEV"/>
+    <test name="Полный тест">
+        <groups>
+            <run>
+                <include name="init"/>
+                <include name="health"/>
+                <include name="sprint3"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ru.atc.fgislk.pup.tests.HealthSubsystemsTests"/>
+            <class name="ru.atc.fgislk.pup.tests.TaskDispatcherTests"/>
+        </classes>
+    </test>
+</suite>

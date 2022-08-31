@@ -1,0 +1,13 @@
+/.allure/
+/allure-results/
+/target/
+/.idea/
+/build/
+*.iml
+_*.xml
+*.txt
+*.mif
+*.mid
+*.geojson
+*.wkt
+

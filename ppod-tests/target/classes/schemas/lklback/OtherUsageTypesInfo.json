@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "resource": {
+      "$ref": "DictionaryItem.json"
+    },
+    "cuttingInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "CuttingInfo.json"
+      }
+    },
+    "area": {
+      "type": "number"
+    },
+    "volume": {
+      "type": "number"
+    },
+    "unitType": {
+      "$ref": "DictionaryItem.json"
+    }
+  }
+}

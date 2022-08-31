@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "sourceSystem": {
+      "type": "string",
+      "description": "код системы источника входящего документа"
+    },
+    "deliveryChannel": {
+      "type": "string",
+      "description": "код способа доставки входящего документа"
+    },
+    "document": {
+      "$ref": "DocumentInfo.json"
+    }
+  },
+  "description": "Запрос на создание записи ЖУВД"
+}

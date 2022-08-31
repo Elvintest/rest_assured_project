@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "position": {
+      "type": "string"
+    },
+    "governmentAgencyName": {
+      "type": "string"
+    },
+    "infoDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "notaryDocument": {
+      "$ref": "NotaryDocument.json"
+    }
+  }
+}

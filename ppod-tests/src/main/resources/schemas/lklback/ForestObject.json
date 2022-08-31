@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "forestry": {
+      "$ref": "DictionaryItem.json"
+    },
+    "subforestry": {
+      "$ref": "DictionaryItem.json"
+    },
+    "tract": {
+      "$ref": "DictionaryItem.json"
+    },
+    "quarter": {
+      "type": "string"
+    },
+    "taxationUnit": {
+      "type": "string"
+    },
+    "cuttingArea": {
+      "type": "string"
+    },
+    "usageType": {
+      "type": "string",
+      "enum": ["harvestingWood", "harvestingObject", "otherUsageTypes", "otherUsageObjects"]
+    },
+    "harvestingWood": {
+      "$ref": "HarvestingWoodInfo.json"
+    },
+    "harvestingObject": {
+      "$ref": "HarvestingObjectInfo.json"
+    },
+    "otherUsageTypes": {
+      "$ref": "OtherUsageTypesInfo.json"
+    },
+    "otherUsageObjects": {
+      "$ref": "OtherUsageObjectsInfo.json"
+    },
+    "coordinates": {
+      "type": "array",
+      "items": {
+        "$ref": "Coordinate.json"
+      }
+    },
+    "schemeDocument": {
+      "$ref": "DocumentInfo.json"
+    }
+  }
+}

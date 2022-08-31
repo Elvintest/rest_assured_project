@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "originalName": {
+      "type": "string"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "md5": {
+      "type": "string"
+    },
+    "expired": {
+      "type": "boolean"
+    },
+    "removeBefore": {
+      "type": "integer"
+    },
+    "attributes": {
+      "$ref": "Attributes.json"
+    },
+    "contentType": {
+      "type": "string"
+    },
+    "source": {
+      "type": ["string", "null"]
+    }
+  }
+}

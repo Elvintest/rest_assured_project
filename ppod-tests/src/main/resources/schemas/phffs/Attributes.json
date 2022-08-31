@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "createdAt": {
+      "type": "string"
+    },
+    "uploadedAt": {
+      "type": "string"
+    }
+  }
+}

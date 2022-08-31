@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["partner", "signer", "applicant", "sender", "representative", "unknown"]
+    },
+    "person": {
+      "$ref": "Person.json"
+    },
+    "businessmen": {
+      "$ref": "Businessmen.json"
+    },
+    "organization": {
+      "$ref": "Organization.json"
+    },
+    "foreignOrganization": {
+      "$ref": "ForeignOrganization.json"
+    },
+    "employeeInfo": {
+      "$ref": "EmployeeInfo.json"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "representative": {
+      "$ref": "Representative.json"
+    },
+    "governmentAgencyInfo": {
+      "$ref": "GovernmentAgencyInfo.json"
+    },
+    "confirmProcessing": {
+      "type": "boolean"
+    },
+    "confirmAccuracy": {
+      "type": "boolean"
+    }
+  }
+}

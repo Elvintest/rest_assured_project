@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "внутренний идентификатор"
+    },
+    "regNumber": {
+      "type": "string",
+      "description": "регистрационный номер"
+    },
+    "status": {
+      "type": "string",
+      "description": "текущий статус",
+      "enum": ["unknown", "active", "closing", "closed"]
+    },
+    "year": {
+      "type": "integer",
+      "description": "год",
+      "format": "int32"
+    },
+    "createdAt": {
+      "type": "string",
+      "description": "дата-время создания журнала"
+    },
+    "closedAt": {
+      "type": ["string", "null"],
+      "description": "дата-время закрытия журнала"
+    }
+  },
+  "description": "Журнал учета входящих документов"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "lastname": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "patronymic": {
+      "type": "string"
+    },
+    "post": {
+      "type": "string"
+    },
+    "postGenitive": {
+      "type": "string"
+    },
+    "fioGenitive": {
+      "type": "string"
+    },
+    "basisAuthority": {
+      "type": "string"
+    },
+    "basisAuthorityGenitive": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

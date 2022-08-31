@@ -1,0 +1,11 @@
+{
+  "type": "array",
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

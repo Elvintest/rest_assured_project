@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "signatureBase64": {
+      "type": "string"
+    }
+  }
+}

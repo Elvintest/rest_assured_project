@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "fiasId": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "countryCode": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

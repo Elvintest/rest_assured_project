@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "applicationXml": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "zipFileName": {
+      "type": "string"
+    },
+    "zipFileLink": {
+      "type": "integer"
+    },
+    "filesToCompress": {
+      "$ref": "Attributes.json"
+    }
+  }
+}

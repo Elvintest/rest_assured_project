@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "fiasId": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

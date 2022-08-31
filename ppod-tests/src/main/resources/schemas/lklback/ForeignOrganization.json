@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "regDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "countryCode": {
+      "type": "string"
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "regNumber": {
+      "type": "string"
+    },
+    "inn": {
+      "type": "string"
+    },
+    "organizationCode": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "Address.json"
+    },
+    "kio": {
+      "type": "string"
+    }
+  }
+}

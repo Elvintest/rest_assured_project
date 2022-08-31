@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "сведения о результате обработки"
+    },
+    "fixedAt": {
+      "type": "string",
+      "description": "дата-время обработки входящего документа",
+      "format": "date-time"
+    },
+    "document": {
+      "$ref": "DocumentInfo.json"
+    }
+  },
+  "description": "Запрос на внесение результата в запись ЖУВД"
+}

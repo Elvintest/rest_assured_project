@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "tree": {
+      "$ref": "DictionaryItem.json"
+    },
+    "farm": {
+      "type": "string",
+      "enum": ["softwood", "hardwood", "coniferous"]
+    },
+    "typeCutting": {
+      "$ref": "DictionaryItem.json"
+    },
+    "formCutting": {
+      "type": "string",
+      "enum": ["clear", "selective"]
+    },
+    "volume": {
+      "type": "number"
+    },
+    "area": {
+      "type": "number"
+    }
+  }
+}

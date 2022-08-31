@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "sender": {
+      "$ref": "Subject.json"
+    }
+  }
+}

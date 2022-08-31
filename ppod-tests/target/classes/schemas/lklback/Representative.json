@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "lastname": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "patronymic": {
+      "type": "string"
+    },
+    "identityDocument": {
+      "$ref": "IdentityDocument.json"
+    },
+    "snils": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "Address.json"
+    },
+    "authorityDocument": {
+      "$ref": "AuthorityDocument.json"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "sourceSubsystem": {
+      "description": "код подсистемы-источника",
+      "type": "string"
+    },
+    "processInstance": {
+      "description": "идентификатор экземпляра процесса, в рамках которого создается протокол",
+      "type": "string"
+    },
+    "kind": {
+      "$ref": "components/EProtocolKind.json"
+    }
+  }
+}
